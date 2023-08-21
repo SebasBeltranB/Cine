@@ -1,0 +1,118 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    border: 2px solid #006100;
+}
+
+.ingresoUsuario {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ingresoContraseña {
+    display: flex;
+}
+
+.ingresoDNI {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.ingresoNombres {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ingresoApellidos {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ingresoNacimiento {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ingresoRol {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ingresoTelefono {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ingresoCorreo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.botonIngreso {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ingresoRegistro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    color: #006100;
+}
+
+#contraseña{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#usuario{
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+#DNI{
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+#nombres{
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+#apellidos{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#nacimiento{
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+#rol{
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+#telefono{
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#correo{
+    border-radius: 10px;
+    margin-left: 50px;
+}

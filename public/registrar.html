@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <form action="/register" method="POST">
+        <h2>Registro</h2>
+        <div class="ingresoDNI">
+          <div class="DNI">DNI:</div>
+          <div>
+            <input type="text" id="DNI" name="DNI" />
+          </div>
+        </div>
+        <div class="ingresoNombres">
+          <div class="nombres">Nombres:</div>
+          <div>
+            <input type="text" id="nombres" name="nombres" />
+          </div>
+        </div>
+        <div class="ingresoApellidos">
+          <div class="apellidos">Apellidos:</div>
+          <div>
+            <input type="text" id="apellidos" name="apellidos" />
+          </div>
+        </div>
+        <div class="ingresoNacimiento">
+          <div class="nacimiento">Fecha de nacimiento:</div>
+          <div>
+            <input type="date" id="nacimiento" name="nacimiento" />
+          </div>
+        </div>
+        <div class="ingresoRol">
+          <div class="rol">Rol:</div>
+          <div>
+            <input type="text" id="rol" name="rol" />
+          </div>
+        </div>
+        <div class="ingresoTelefono">
+          <div class="telefono">Teléfono:</div>
+          <div>
+            <input type="text" id="telefono" name="telefono" />
+          </div>
+        </div>
+        <div class="ingresoCorreo">
+          <div class="correo">Correo:</div>
+          <div>
+            <input type="text" id="correo" name="correo" />
+          </div>
+        </div>
+        <div class="ingresoUsuario">
+          <div class="usuario">Usuario:</div>
+          <div>
+            <input type="text" id="usuario" name="usuario" />
+          </div>
+        </div>
+        <div class="ingresoContraseña">
+          <div class="contraseña">Contraseña:</div>
+          <div>
+            <input type="contraseña" id="contraseña" name="contraseña" />
+          </div>
+        </div>
+        <div class="botonIngreso">
+          <input type="submit" value="Registrar" />
+        </div>
+        <div class="ingresoRegistro">
+          <a href="index.html">Login</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
